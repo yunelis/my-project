@@ -22,7 +22,6 @@ jobs:
     - name: Install dependencies  # Шаг 3: Установка зависимостей
       run: |
         python -m pip install --upgrade pip  # Обновление pip
-        pip install -r requirements.txt  # Установка зависимостей из файла requirements.txt
 
     - name: Run tests  # Шаг 4: Запуск тестов
       run: |
